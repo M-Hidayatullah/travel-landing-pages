@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halaman Utama</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <style>
+      .fade-element {
+        opacity: 0;
+        transition: opacity 1.5s ease-in-out;
+      }
+      .fade-in {
+        opacity: 1;
+      }
+      .bg-gradient {
+        background-image: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0),
+          rgba(0, 0, 0, 0.5)
+        );
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">Logo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#"> Komodo </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="waerebo.html"> Waerebo </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="sumba.html"> Sumba </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="flores.html"> Flores </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="video-container">
+      <video id="video-content" autoplay loop muted>
+        <source src="assets/video/bg-header.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="container justify-content-center">
+        <div class="text-over-video text-center">
+          2024 BOOKINGS <br />
+          OPEN NOW
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row mt-5 mb-5 d-flex justify-content-center">
+        <div class="col-md-2 fade-element">
+          <div class="card">
+            <img
+              src="assets/image/bg-2.jpg"
+              style="border-radius: 20px; height: 250px"
+            />
+          </div>
+        </div>
+        <div class="col-md-4 image-desti fade-element">
+          <div class="card">
+            <img
+              src="assets/image/bg-3.jpg"
+              style="border-radius: 20px; height: 250px"
+            />
+          </div>
+        </div>
+        <div class="col-md-2 image-desti fade-element">
+          <div class="card">
+            <img
+              src="assets/image/bg-4.jpg"
+              style="border-radius: 20px; height: 250px"
+            />
+          </div>
+        </div>
+        <div class="col-md-2 image-desti fade-element">
+          <div class="card">
+            <img
+              src="assets/image/bg-8.jpeg"
+              style="border-radius: 20px; height: 250px"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container fade-element">
+      <div class="row mt-5 mb-5 d-flex justify-content-center">
+        <div class="col-md-2">
+          <div class="card">
+            <img
+              src="assets/image/bg-7.jpg"
+              style="border-radius: 20px; height: 250px"
+            />
+          </div>
+        </div>
+        <div class="col-md-4 image-desti">
+          <div class="card">
+            <img
+              src="assets/image/bg-5.jpg"
+              style="border-radius: 20px; height: 250px"
+            />
+          </div>
+        </div>
+        <div class="col-md-2 image-desti">
+          <div class="card">
+            <img
+              src="assets/image/bg-6.jpg"
+              style="border-radius: 20px; height: 250px"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center">
+      <h1 class="heading1 fw-bold">Experience</h1>
+    </div>
+    <div class="py-5 container-fluid position-relative" style="padding: 0">
+      <div
+        class="container-fluid"
+        style="background-image: url('assets/image/bg-beach.svg')"
+      >
+        <div class="container fade-element">
+          <div class="row d-flex justify-content-center">
+            <div class="mt-5 mb-5 col-md-2 d-flex justify-content-center">
+              <img
+                class="beach-image"
+                src="assets/image/bg-beach-1.jpg"
+                style="
+                  border-radius: 20px;
+                  height: 400px;
+                  box-shadow: 0px 4px 20px rgba(10, 0, 0, 0.1);
+                "
+              />
+              <h1
+                style="position: absolute; top: 17%; color: #fff"
+                class="heading1 fw-bold"
+              >
+                SAIL
+              </h1>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-center">
+            <div class="mt-5 mb-5 col-md-2 d-flex justify-content-center">
+              <img
+                class="beach-image"
+                src="assets/image/bg-beach-1.jpg"
+                style="
+                  border-radius: 20px;
+                  height: 400px;
+                  box-shadow: 0px 4px 20px rgba(10, 0, 0, 0.1);
+                "
+              />
+              <h1
+                style="position: absolute; top: 47%; color: #fff"
+                class="heading1 fw-bold"
+              >
+                EXPLORE
+              </h1>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-center">
+            <div class="mt-5 pb-5 col-md-2 d-flex justify-content-center">
+              <img
+                class="beach-image"
+                src="assets/image/bg-beach-1.jpg"
+                style="border-radius: 20px; height: 400px"
+              />
+              <h1
+                style="position: absolute; top: 80%; color: #fff"
+                class="heading1 fw-bold"
+              >
+                NEW FRIENDS
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center">
+      <h1 class="heading1 fw-bold">DESTINATIONS</h1>
+    </div>
+    <div class="container image-destination fade-element">
+      <div class="row mt-5 mb-5 d-flex justify-content-center">
+        <div class="col-md-3 fade-element">
+          <a href="pages/komodo/komodo.html">
+            <div class="card">
+              <img
+                src="assets/image/komodo-island.jpg"
+                style="border-radius: 20px; height: 470px"
+              />
+              <h1
+                style="position: absolute; top: 50%; left: 10%; color: #fff"
+                class="heading1 fw-bold"
+              >
+                KOMODO
+              </h1>
+            </div></a
+          >
+        </div>
+        <div class="col-md-3 image-desti fade-element">
+          <a href="pages/waerebo/waerebo.html">
+            <div class="card">
+              <img
+                src="assets/image/waerebo.jpg"
+                style="border-radius: 20px; height: 470px"
+              />      <h1
+              style="position: absolute; top: 50%; left: 10%; color: #fff"
+              class="heading1 fw-bold"
+            >
+              WAEREBO
+            </h1></div
+          ></a>
+        </div>
+        <div class="col-md-3 image-desti fade-element">
+          <div class="card">
+            <img
+              src="assets/image/sumba.jpg"
+              style="border-radius: 20px; height: 470px"
+            />      <h1
+            style="position: absolute; top: 50%; left: 10%; color: #fff"
+            class="heading1 fw-bold"
+          >
+            SUMBA
+          </h1>
+          </div>
+        </div>
+        <div class="col-md-3 image-desti fade-element">
+          <div class="card">
+            <img
+              src="assets/image/flores.jpg"
+              style="border-radius: 20px; height: 470px"
+            />      <h1
+            style="position: absolute; top: 50%; left: 10%; color: #fff"
+            class="heading1 fw-bold"
+          >
+            FLORES
+          </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex py-5 justify-content-center">
+      <h1 class="heading1 fw-bold">ABOUT US</h1>
+    </div>
+    <div
+      class="container fade-element d-flex flex-column align-items-center"
+      style="background-image: url('assets/image/bg-about.png'); height: 100vh"
+    >
+
+      <div class="row mt-5 mb-5 d-flex justify-content-center">
+        <div class="col-md-6 fade-element">
+          <div class="card bg-transparent">
+            <img src="assets/image/play.svg" id="playButtonImg" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="videoModal" class="modal">
+      <span class="close" id="close">&times;</span>
+      <video id="modalVideo" controls>
+        <source src="assets/image/beach-video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-grey ">
+            <strong>Mataram Lombok Projects &copy; 2024</strong>
+            <p class="mt-5">TRIP ADVISER & PLANNER<br/>
+              “A strong desire to travel”</p>
+
+          </div>
+          <div class="col-md-6 text-right">
+            <strong>Contact</strong>
+            <p class="mt-5">Mataram Lombok Projects &copy; 2024</p>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".navbar-toggler").click(function () {
+          var ariaExpanded = $(this).attr("aria-expanded");
+          if (ariaExpanded === "true") {
+            $(this).attr("aria-expanded", "false");
+          } else {
+            $(this).attr("aria-expanded", "true");
+          }
+        });
+      });
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          $(".fade-element").each(function () {
+            var elemTop = $(this).offset().top;
+            var elemBottom = elemTop + $(this).outerHeight();
+            var viewportTop = $(window).scrollTop();
+            var viewportBottom = viewportTop + $(window).height();
+            if (elemBottom > viewportTop && elemTop < viewportBottom) {
+              $(this).addClass("fade-in");
+            } else {
+              $(this).removeClass("fade-in");
+            }
+          });
+        });
+
+        $(window).scroll();
+      });
+      var modal = document.getElementById("videoModal");
+
+      var modalVideo = document.getElementById("modalVideo");
+
+      var playButton = document.getElementById("close");
+      var closeButton = document.getElementById("close");
+
+      var playButtonImg = document.getElementById("playButtonImg");
+
+      var closeButton = modal.querySelector(".close");
+
+      playButtonImg.onclick = function () {
+        modal.style.display = "block";
+      };
+
+      playButton.onclick = function () {
+        modal.style.display = "none";
+        modalVideo.pause();
+      };
+
+      closeButton.onclick = function () {
+        modal.style.display = "none";
+        modalVideo.pause();
+      };
+
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+          modalVideo.pause();
+        }
+      };
+    </script>
+  </body>
+</html>
